@@ -1,0 +1,266 @@
+body{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+header{
+	
+	display: flex;
+	flex-direction: row;
+	background: url('../Image/print-template-929738_1280.jpg');
+	height: 200px;
+}
+
+header h1{
+	
+}
+
+#book{
+	width: 190px;
+	margin-left: 10px;
+	background: #c5c5277a;
+	padding: 50px 20px 20px 20px;
+	
+}
+
+#home{
+	display: none;
+}
+
+
+.navbar{
+
+	height: 50px;
+	background: #ffd700;
+}
+
+
+nav ul{
+	list-style-type: none;
+	clear: both;
+	margin-top: 0px;
+	
+}
+
+
+
+nav li{
+	display: inline-block;
+	font-family: AnyMale, Impact, "Times new Roman", sans-serif;
+	font-size: 1.1em;
+	border-right: 2px solid;
+	text-align: center;
+	background: gold;
+	padding: 4px 0px 4px 0px;
+
+}
+
+.dropdown{
+	display: none;
+}
+
+.form-inline{
+	margin-right: 10px;
+}
+
+.active{
+	background: #FFFFFF;
+}
+
+
+nav li:hover{
+	background: #FFFFFF;
+
+}
+
+.breadcrumb{
+	background: lightblue;
+	display: none;
+}
+
+.breadcrumb .active{
+	background: none;
+}
+
+
+#left-menu{
+	display: block;
+	float: left;
+	border-right: 1px solid black;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	padding-bottom: 1000vh;
+
+}
+
+#left-menu h1{
+	font-family: AnyMale, Impact, "Times New Roman", sans-serif;
+	font-size: 1.2em;
+	margin-left: 30px;
+
+
+}
+
+#left-menu ul{
+	list-style-type: none;
+
+
+}
+
+#left-menu li{
+	font-family: AnyMale, Impact, "Times New Roman", sans-serif;
+	margin-bottom: 15px;
+	margin-left: 1px;
+}
+
+#left-menu a{
+	text-decoration: none;
+	color: #0000ff;
+
+}
+
+#left-menu a:hover{
+	color: #ca2a82;
+}
+
+
+#images{
+	margin-top: 120px;
+	margin-left: 20%;
+
+
+}
+
+.image{
+	width: 200px;
+	
+}
+
+#images p{
+	width: 20%;
+	display: inline-block;
+	margin-right: 10%;
+}
+
+legend{
+	font-family: "Berlin Sans FB",Impact, "Times New Roman", sans-serif;
+	font-size: 120%;
+	color: #314094;
+
+}
+legend a{
+	color: #0000ff;
+	text-decoration: none;
+}
+
+span{
+	font-size: 90%;
+}
+
+/*For narrow screen*/
+
+@media screen and (max-width: 994px){
+	#left-menu li{
+	display: inline;
+	margin-left: 2px;
+	
+
+   }
+   #left-menu{
+   	border: none;
+   	margin-top: 20px;
+   	padding: 0px;
+   	box-sizing: none;
+   	float: none;
+
+   }
+    #images{
+	margin-top: 20px;
+	margin-left: 0px;
+    }
+
+    .image{
+	width: 125px;
+    }
+
+    #images p{
+	width: 20%;
+	display: inline-block;
+	margin-right: 2%;
+	margin-left: 7%;
+    }
+
+    legend{
+	font-family: "Berlin Sans FB",Impact, "Times New Roman", sans-serif;
+	font-size: 150%;
+	color: #314094;
+
+    }
+
+    #home{
+	display: block;
+    }
+
+   
+    .navbar-collapse{
+	height: none;
+	background: #ffd700;
+	
+    }
+
+    nav ul{
+	list-style-type: none;
+	clear: both;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: none;
+	}
+
+
+    nav li{
+	display: inline-block;
+	font-size: 1.1em;
+	border-right: none;
+	padding: none;
+	background: #ffd700;
+
+   }
+
+   .dropdown{
+   	 display: block;
+   }
+
+   .dropdown-menu{
+   	 background: lightgrey;
+   }
+
+   .dropdown-menu a:hover{
+   	background: #FFFFFF;
+   }
+
+    .breadcrumb{
+	display: none;
+
+    }
+
+    #accueil{
+    	display: none;
+
+    }
+
+    #left-menu{
+    	display: none;
+    }
+
+    .form-control{
+	   width: 200px;
+	   margin-left: 90px;
+	   margin-right: 5px;
+    }
+
+
+ 
+
+}
