@@ -11,7 +11,7 @@ header{
 	
 	display: flex;
 	flex-direction: row;
-	background: url('../Images/mangas1.png');
+	background: url('../Image/mangas1.png');
 	height: 200px;
 }
 
