@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bibliothèque</title>
+	<script type="text/javascript" src="js0/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript" src="js0/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js0/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mangas.css">
+</head>
+<body>
+	<header  id="head">
+		<h1><img id="book" onload="change()" src="Image/logoweb.png" alt="talking-yellow-book"></h1>
+	</header>
+	
+		    <nav class="navbar navbar-expand-lg navbar-light">
+		  <a id="home" class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a style="color: blue;" id="accueil" class="nav-link" href="work2.html">ACCUEIL<span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a style="color: blue" class="nav-link" href="#">NOUVEAUTES</a>
+		      </li>
+		      <li class="nav-item">
+		        <a style="color: blue;" class="nav-link" href="#">BEST-SELLERS</a>
+		      </li>
+		       <li class="nav-item dropdown active">
+		        <a style="color:blue; background: gold;" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CATEGORIES</a>
+		        <div  class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+		          <a style="color: blue" class="dropdown-item" href="work2.html">Classiques</a>
+		          <a style="color: blue" class="dropdown-item" href="#">Roman-policier</a>
+		          <a style="color: blue" class="dropdown-item" href="#">Horreur</a>
+		          <a style="color: blue" class="dropdown-item" href="#">Science-fiction</a>
+		          <a style="color: blue" class="dropdown-item" href="#">BD</a>
+		          <a style="color: blue" class="dropdown-item" href="#">Mangas</a>
+		        </div>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+		      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+		    </form>
+		  </div>
+		</nav>
+
+	<div>
+      <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="work2.html">ACCUEIL</a></li>
+          <li class="breadcrumb-item active" aria-current="page">MANGAS</li>
+      </ol>
+    </div>
+
+	<SECTION id="left-menu">
+		<h1>CATEGORIE</h1>
+       <ul>
+		<li><a href="work2.html">Classiques</a></li>
+		<li><a href="#">Roman</a></li>
+		<li><a href="#">Roman-policier</a></li>
+		<li><a href="#">Horreur</a></li>
+		<li><a href="#">Science-Fiction</a></li>
+		<li><a href="#">BD</a></li>
+		<li><a href="#">MANGAS</a></li>
+		<li><a href="#">MAGAZINE/JOURNAL</a></li>
+		<li><a href="#">SCIENCES SOCIALES</a></li>
+	  </ul>
+	</SECTION>
+
+	<SECTION id="right">
+		<div id="images">
+		   <p>
+			<img class="image" id="A"  onclick="document.getElementById('A').src='Image/togari-shiro-1-blackbox_m.jpg'" src="Images/togari-shiro-1-blackbox_m.jpg">
+			<br>
+			<legend>TOGARI SHIRO</legend>
+			<legend><a href="https://www.manga-news.com/public/manga_previews/togarishiro1/files/assets/basic-html/page-1.html">Télécharger</a></legend>
+          </p>
+           <p>
+			<img class="image" id="B" src="Image/9782344029305_1_75.jpg">
+			<br>
+			<legend>------ LAST ORDER</legend>
+			<legend><a href="https://www.manga-news.com/public/manga_previews/togarishiro1/files/assets/basic-html/page-1.html">Télécharger</a></legend>
+          </p>
+		 <p>
+			<img class="image" id="C" src="Image/9782811645694_1_75.jpg">
+			<br>
+			<legend>LES 7 PECHES CAPITAUX </legend>
+			<legend><a href="https://www.manga-news.com/public/manga_previews/togarishiro1/files/assets/basic-html/page-1.html">Télécharger</a></legend>
+			
+          </p>
+
+           <p>
+			<img class="image" id="D" src="Image/9782820332943_1_75.jpg">
+			<br>
+			<legend>BLUE EXORCIST</legend>
+			<legend><a href="https://www.manga-news.com/public/manga_previews/togarishiro1/files/assets/basic-html/page-1.html">Télécharger</a></legend>
+          </p>
+           <p>
+			<img class="image" id="E" src="Image/9782809473575_1_75.jpg">
+			<br>
+			<legend>BLACK PANTHER</legend>
+			<legend><a href="https://www.manga-news.com/public/manga_previews/togarishiro1/files/assets/basic-html/page-1.html">Télécharger</a></legend>
+          </p>
+		 <p>
+			<img class="image" id="F" src="Image/9791032703281_1_75.jpg">
+			<br>
+			<legend>MY HERO ACADEMIA</legend>
+			<legend><a href="https://www.manga-news.com/public/manga_previews/togarishiro1/files/assets/basic-html/page-1.html">Télécharger</a></legend>
+          </p>
+			
+			
+		</div>
+
+		
+	</SECTION>
+
+	<script>
+		
+	</script>
+
+
+</body>
+</html>

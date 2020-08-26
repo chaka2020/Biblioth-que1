@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bibliothèque</title>
+	<script type="text/javascript" src="js0/jquery-3.5.1.slim.js"></script>
+    <script type="text/javascript" src="js0/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js0/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/work2.css">
+	<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+</head>
+<body>
+	<header  id="head">
+		<h1><img id="book" onload="change()" src="Image/logoweb.png" alt="talking-yellow-book"></h1>
+	</header>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+  <a id="home" class="navbar-brand" href="#"><i class="fa fa-home"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a style="color: blue;" id="accueil" class="nav-link" href="#">ACCUEIL<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a style="color: blue" class="nav-link" href="#">NOUVEAUTES</a>
+      </li>
+      <li class="nav-item">
+        <a style="color: blue;" class="nav-link" href="#">BEST-SELLERS</a>
+      </li>
+       <li class="nav-item dropdown active">
+        <a style="color:blue; background: gold;" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CATEGORIES</a>
+        <div  class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a style="color: blue" class="dropdown-item" href="work2.html">Classiques</a>
+          <a style="color: blue" class="dropdown-item" href="#">Roman-policier</a>
+          <a style="color: blue" class="dropdown-item" href="#">Horreur</a>
+          <a style="color: blue" class="dropdown-item" href="#">Science-fiction</a>
+          <a style="color: blue" class="dropdown-item" href="#">BD</a>
+          <a style="color: blue" class="dropdown-item" href="mangas.html">Mangas</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+	<div>
+      <ol class="breadcrumb" style="margin-top: 15px; background: lightgrey">
+        <li class="breadcrumb-item active">ACCUEIL</li>
+     </ol>
+   <div>
+
+	<SECTION id="left-menu">
+		<h1>CATEGORIE</h1>
+      
+
+       <ul>
+		<li><a href="#">Classiques</a></li>
+		<li><a href="#">Roman-policier</a></li>
+		<li><a href="#">Horreur</a></li>
+		<li><a href="#">Science-Fiction</a></li>
+		<li><a href="#">BD</a></li>
+		<li><a href="mangas.html">MANGAS</a></li>
+		<li><a href="#">MAGAZINE/JOURNAL</a></li>
+	  </ul>
+	</SECTION>
+
+	<SECTION id="right">
+		<div id="images">
+		   <p>
+			<img class="image" id="A"  onclick="document.getElementById('A').src='Image/2a5125bd66d33b8a864049e44d6a172e.jpg'" src="Image/2a5125bd66d33b8a864049e44d6a172e.jpg">
+			<br>
+			<legend>Mille et une nuit Tome 1</legend>
+			<legend><a href="#A" onclick="document.getElementById('A').src='Image/Descriptionbook.jpg'">Description</a></legend>
+			<legend><a href="Doc/mille_et_une_nuits_t1.zip">Télécharger</a><span> 1.24 Mo</span></legend>
+          </p>
+          <p>
+			<img class="image" id="B"  onclick="document.getElementById('B').src='Image/2a5125bd66d33b8a864049e44d6a172e.jpg'" src="Image/2a5125bd66d33b8a864049e44d6a172e.jpg">
+			<br>
+			<legend>Mille et une nuit Tome 2</legend>
+			<legend><a href="#B" onclick="document.getElementById('B').src='Image/Descriptionbook.jpg'">Description</a></legend>
+			<legend><a href="Doc/mille_et_une_nuits_t1.zip">Télécharger</a><span> 1.18 Mo</span></legend>
+          </p>
+          <p>
+			<img class="image" id="C"  onclick="document.getElementById('C').src='Image/2a5125bd66d33b8a864049e44d6a172e.jpg'" src="Image/2a5125bd66d33b8a864049e44d6a172e.jpg">
+			<br>
+			<legend>Mille et une nuit Tome 3</legend>
+			<legend><a href="#C" onclick="document.getElementById('C').src='Image/Descriptionbook.jpg'">Description</a></legend>
+			<legend><a href="Doc/mille_et_une_nuits_t1.zip">Télécharger</a><span> 1.15 Mo</span></legend>
+          </p>
+          <!-- <p>
+			<img class="image" id="B" onclick="document.getElementById('B').src='Images/emdurk.jpg'" src="Images/emdurk.jpg">
+			<br>
+			<legend>Les règles de la méthode sociologique</legend>
+			<legend><a href="#B" onclick="document.getElementById('B').src='Images/Descriptionbook.jpg'">Description</a></legend>
+			<legend><a href="Doc/Durkheim_Règles de la Méthode Sociologique.zip">Télécharger</a><span> 541 Ko</span></legend>
+          </p> -->
+		 
+         <p>
+			<img class="image" id="D" onclick="document.getElementById('D').src='Image/Les-misérables.jpg'" src="Image/Les-misérables.jpg">
+			<br>
+			<legend>Les misérables Tome 1</legend>
+			<legend><a href="#D" onclick="document.getElementById('D').src='Image/Descriptionbook.jpg'"> Description</a></legend>
+			<legend><a href="Doc/Hugo-miserables-1.zip">Télécharger</a><span> 1 Mo</span></legend>
+          </p>
+
+           <p>
+			<img class="image" id="E" onclick="document.getElementById('E').src='Image/Les-misérables.jpg'" src="Image/Les-misérables.jpg">
+			<br>
+			<legend>Les misérables Tome 2</legend>
+			<legend><a href="#E" onclick="document.getElementById('E').src='Image/Descriptionbook.jpg'"> Description</a></legend>
+			<legend><a href="Doc/Hugo-miserables-2.zip">Télécharger</a><span> 906 Ko</span></legend>
+          </p>
+           <p>
+			<img class="image" id="F" onclick="document.getElementById('F').src='Image/Les-misérables.jpg'" src="Image/Les-misérables.jpg">
+			<br>
+			<legend>Les misérables Tome 2</legend>
+			<legend><a href="#F" onclick="document.getElementById('F').src='Image/Descriptionbook.jpg'"> Description</a></legend>
+			<legend><a href="Doc/Hugo-miserables-3.zip">Télécharger</a><span> 0.98 Mo</span></legend>
+          </p>
+
+     
+
+		
+	</SECTION>
+
+	<script>
+		
+	</script>
+
+
+
+  <i class="fas fa-user"></i> <!-- uses solid style -->
+  <i class="far fa-user"></i> <!-- uses regular style -->
+  <i class="fal fa-user"></i> <!-- uses light style -->
+  <!--brand icon-->
+  <i class="fab fa-github-square"></i> <!-- uses brands style -->
+  <i class="fab fa-github-square"></i> <!-- uses brands style -->
+
+
+</body>
+</html>
